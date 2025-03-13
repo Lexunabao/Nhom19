@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile, .education, .skills, .projects, .contact {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.profile img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.profile img {
+    display: block;
+    width: 100px;  /* Giảm kích thước ảnh */
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+    object-fit: cover; /* Đảm bảo ảnh hiển thị đẹp mà không bị méo */
+    border: 3px solid #007bff; /* Thêm viền xanh để nổi bật */
+}
