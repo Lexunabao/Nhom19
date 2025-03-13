@@ -1,0 +1,116 @@
+/* Reset một số thuộc tính mặc định của trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cài đặt font chữ chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Các phần của nội dung */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 960px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng các tiêu đề */
+h2 {
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+/* Định dạng phần thông tin cá nhân */
+#personal-info .content {
+    text-align: center;
+}
+
+#personal-info .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#personal-info p {
+    font-size: 1.1em;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Danh sách các môn học, kỹ năng và dự án */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Định dạng liên kết trong phần liên hệ */
+#contact .contact-info a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#contact .contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Phản hồi di động: Đảm bảo giao diện đẹp trên các thiết bị nhỏ */
+@media screen and (max-width: 768px) {
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    header {
+        font-size: 1.2em;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contact-info a {
+        font-size: 1em;
+        margin-right: 10px;
+    }
+}
